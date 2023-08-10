@@ -1,6 +1,5 @@
-//base class-->super class or parent class  
-//deerived class-->child class
-//hiding complex things behind the procedure that makes those things look simple
+//base class<-->super class or parent class  
+//deerived class<-->child class
 
  #include<iostream>
 using namespace std;

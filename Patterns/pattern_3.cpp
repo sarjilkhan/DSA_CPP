@@ -12,22 +12,23 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin>>n;
+           int n;
+cin>>n;
 
-    for(int i=1;i<=n;i++)
-    {
-        for(int j=1;j<=i;j++)
-        {
-            if(i<n)
-            {
-                cout<<"*";
-            }
-            else
-            {
-                cout<<" ";
-            }
-        }
-    
+int row=1;
+while(row<=n){
+    int space=n-row;
+    while(space){
+        cout<<" ";
+        space=space-1;
     }
+    int col=1;
+    while(col<=row){
+        cout<<"*"<<" ";
+        col=col+1;
+    }  
+    cout<<endl;
+    row=row+1;
+
+}
 }
