@@ -3,7 +3,7 @@ using namespace std;
 
 class Employee {
 
-//To make these properties private and get access of this from outside the class through the methods that do have access of the private properties.
+//encapsulation->To make these properties private and get access of this from outside the class through the methods that do have access of the private properties.
 private:
     string Name;
     string Company;
