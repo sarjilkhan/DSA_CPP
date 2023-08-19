@@ -1,4 +1,4 @@
-//hiding complex things behind the procedure that makes those things look simple
+//abstraction->hiding complex things behind the procedure that makes those things look simple
 
  #include<iostream>
 using namespace std;
